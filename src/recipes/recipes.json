@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/recipe.njk",
+  "permalink": "{{ page.fileSlug }}/index.html",
+  "tags": "recipes"
+}
