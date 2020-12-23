@@ -6,7 +6,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FixStyleOnlyEntriesPlugin = require('webpack-fix-style-only-entries');
 
-const entries = glob.sync(path.resolve(__dirname, 'src/assets/images/recipes/*.{png,gif,jpg,jpeg}'));
+const entries = glob.sync(
+  path.resolve(__dirname, 'src/assets/images/recipes/*.{png,gif,jpg,jpeg}')
+);
 entries.push(path.resolve(__dirname, 'src/assets/styles/main.css'));
 
 let cssFileName = 'styles/[name].css';
@@ -24,7 +26,13 @@ module.exports = {
   },
   plugins: [
     new CopyWebpackPlugin({
-      patterns: [{ from: path.resolve(__dirname, 'public'), to: path.resolve(__dirname, '_site') }],
+      patterns: [
+        { from: path.resolve(__dirname, 'public'), to: path.resolve(__dirname, '_site') },
+        {
+          from: path.resolve(__dirname, 'src/admin/config.yml'),
+          to: path.resolve(__dirname, '_site/admin/config.yml'),
+        },
+      ],
     }),
     new webpack.HashedModuleIdsPlugin(),
     new FixStyleOnlyEntriesPlugin({
