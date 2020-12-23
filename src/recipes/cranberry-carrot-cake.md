@@ -5,17 +5,17 @@ category: dessert
 yield: 12 servings
 cook: 40 - 45 minutes
 ingredients: |-
-  * 1 ½ cups flour	
-  * 1 cup brown sugar	
-  * 1 teaspoon baking powder
-  * 1 teaspoon baking soda
-  * ½ teaspoon salt
-  * ½ teaspoon cinnamon
-  * ½ teaspoon nutmeg			- Combine in large bowl
-  * 1 cup shredded carrots
-  * 1 cup coarsely chopped cranberries	- Add to dry ingredients
-  * 2 eggs	
-  * 2/3 cup vegetable oil			- Blend together and add to above.
+  1 ½ cups flour	
+  1 cup brown sugar	
+  1 teaspoon baking powder
+  1 teaspoon baking soda
+  ½ teaspoon salt
+  ½ teaspoon cinnamon
+  ½ teaspoon nutmeg
+  1 cup shredded carrots
+  1 cup coarsely chopped cranberries
+  2 eggs	
+  2/3 cup vegetable oil
 instructions: >-
   1. Combine the flour, sugar, baking powder, baking soda salt, cinnamon and
   nutmeg in a large bowl.
