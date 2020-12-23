@@ -1,7 +1,7 @@
 {
-  "name": "recipes",
+  "name": "ehrensberger-recipes",
   "version": "1.0.0",
-  "description": "recipes",
+  "description": "Recipes of the Ehrensberger family",
   "scripts": {
     "build-dev:webpack": "webpack",
     "watch:webpack": "webpack --watch",
@@ -21,7 +21,11 @@
     "format": "run-s format:*",
     "lint": "eslint --ext .js ."
   },
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sykaeh/ehrensberger-recipes.git"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "autoprefixer": "^9.8.6",
