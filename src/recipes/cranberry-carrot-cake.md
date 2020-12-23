@@ -1,9 +1,4 @@
 ---
-layout: layouts/recipe.njk
-title: Cranberry Carrot Cake
-category: dessert
-yield: 12 servings
-cook: 40 - 45 minutes
 ingredients: |-
   1 ½ cups flour	
   1 cup brown sugar	
@@ -29,5 +24,17 @@ instructions: >-
   5. Spoon into buttered 9" square pan. 
 
   6. Bake at 350F about 40-45 minutes.
-source: unknown
+layout: layouts/recipe.njk
+title: Cranberry Carrot Cake
+category: dessert
+yield: 12 servings
+cook: 40 - 45 minutes
+source: ""
 ---
+1. Combine the flour, sugar, baking powder, baking soda salt, cinnamon and
+   nutmeg in a large bowl.
+2. Add the shredded carrots and the chopped ingredients to the dry ingredients.
+3. Blend together the eggs and the vegetable oil and add to above.
+4. Beat dough gently until well mixed. 
+5. Spoon into buttered 9" square pan. 
+6. Bake at 350F about 40-45 minutes.
