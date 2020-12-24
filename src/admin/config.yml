@@ -2,36 +2,47 @@ backend:
   name: git-gateway
   branch: main
 publish_mode: editorial_workflow
-media_folder: "src/assets/images"
-public_folder: "/assets/images"
+media_folder: 'src/assets/images'
+public_folder: '/assets/images'
+site_url: https://recipes.ehrensberger.org
+editor:
+  preview: false
 collections:
-  - name: "recipes"
-    label: "Recipes"
-    folder: "src/recipes"
-    slug: "{{slug}}"
+  - name: 'recipes'
+    label: 'Recipes'
+    label_singular: 'Recipe'
+    folder: 'src/recipes'
+    slug: '{{slug}}'
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/recipe.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Yield", name: "yield", widget: "string", required: false}
-      - {label: "Prep", name: "prep", widget: "string", required: false}
-      - {label: "Cook", name: "cook", widget: "string", required: false}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Source", name: "source", widget: "datetime"}
-      - {label: "Tag", name: "tag", widget: "string"}
-      - {label: "Ingredients", name: "ingredients", widget: "list", allow_add: true}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - label: "Globals"
-    name: "globals"
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Quote', name: 'quote', widget: 'string', required: false }
+      - {
+          label: 'Category',
+          name: 'tags',
+          widget: 'select',
+          options: ['salad', 'soup', 'starter', 'main dish', 'bread', 'dessert', 'cookies'],
+        }
+      - { label: 'Image', name: 'image', widget: 'image', required: false }
+      - { label: 'Yield', name: 'yield', widget: 'string', required: false }
+      - { label: 'Prep', name: 'prep', widget: 'string', required: false }
+      - { label: 'Cook', name: 'cook', widget: 'string', required: false }
+      - { label: 'Ingredients', name: 'ingredients', widget: 'text' }
+      - { label: 'Instructions', name: 'body', widget: 'markdown' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Source', name: 'source', widget: 'string', required: false }
+
+  - label: 'Globals'
+    name: 'globals'
     files:
-      - label: "Site Data"
-        name: "site_data"
+      - label: 'Site Data'
+        name: 'site_data'
         delete: false
-        file: "src/_data/site.json"
+        file: 'src/_data/site.json'
         fields:
-          - {label: "site_name", name: "site_name", widget: "string"}
-          - {label: "title", name: "title", widget: "string"}
-          - {label: "description", name: "description", widget: "string"}
-          - {label: "url", name: "url", widget: "string"}
-          - {label: "locale", name: "locale", widget: "string"}
-          - {label: "author", name: "author", widget: "string"}
+          - { label: 'site_name', name: 'site_name', widget: 'string' }
+          - { label: 'title', name: 'title', widget: 'string' }
+          - { label: 'description', name: 'description', widget: 'string' }
+          - { label: 'url', name: 'url', widget: 'string' }
+          - { label: 'locale', name: 'locale', widget: 'string' }
+          - { label: 'author', name: 'author', widget: 'string' }

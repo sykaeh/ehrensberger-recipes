@@ -2,6 +2,14 @@ const htmlmin = require('html-minifier');
 const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addFilter('makeList', function (value) {
+    if (value) {
+      return value.split('\n');
+    } else {
+      return [];
+    }
+  });
+
   eleventyConfig.addPlugin(lazyImagesPlugin, {
     transformImgPath: (imgPath) => {
       if (imgPath.startsWith('http://') || imgPath.startsWith('https://')) {
@@ -32,6 +40,6 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
-    dir: { input: 'src', output: '_site', data: '_data' }
+    dir: { input: 'src', output: '_site', data: '_data' },
   };
 };

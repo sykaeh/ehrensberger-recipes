@@ -6,9 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FixStyleOnlyEntriesPlugin = require('webpack-fix-style-only-entries');
 
-const entries = glob.sync(
-  path.resolve(__dirname, 'src/assets/images/recipes/*.{png,gif,jpg,jpeg}')
-);
+const entries = glob.sync(path.resolve(__dirname, 'src/assets/images/*.{png,gif,jpg,jpeg}'));
 entries.push(path.resolve(__dirname, 'src/assets/styles/main.css'));
 
 let cssFileName = 'styles/[name].css';
@@ -60,7 +58,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: 'images/recipes/[name].[ext]',
+              name: 'images/[name].[ext]',
             },
           },
           {

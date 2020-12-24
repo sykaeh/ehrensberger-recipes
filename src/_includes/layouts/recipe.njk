@@ -8,12 +8,18 @@ layout: layouts/base.njk
       <div class="pr-12 pb-2">
         <h1 class="mt-0 mb-2 -ml-5 p-2 pl-5 font-bold text-3xl bg-gray-200 opacity-75 rounded-r-sm">{{ title }}</h1>
       </div>
-      <span class="bg-gray-200 opacity-75 -ml-5 py-1 pr-3 pl-5 text-sm font-semibold rounded-r-sm">
-        {{ tag }}
-      </span>
+      <p>{{ quote }}</p>
+      {% for tag in tags %}
+        <span class="bg-gray-200 opacity-75 -ml-5 py-1 pr-3 pl-5 text-sm font-semibold rounded-r-sm">
+          {{ tag }}
+        </span>
+      {% endfor %}
+      {% if source %}
+        <p>Source: {{ source }}</p>
+      {% endif %}
     </header>
     <main>
-      <section class="pb-3 border-b border-solid border-gray-400 flex flex-col lg:flex-row-reverse">
+      <section class="pb-3 flex flex-col lg:flex-row-reverse">
         <div class="flex-auto lg:ml-4">
           <table class="table-auto border-collapse w-full">
             <thead>
@@ -25,34 +31,33 @@ layout: layouts/base.njk
             </thead>
             <tbody>
               <tr>
-                <td class="px-4 py-2 text-center border-r border-t">{{ yield }}</td>
-                <td class="px-4 py-2 text-center border-t">{{ prep }}</td>
-                <td class="px-4 py-2 text-center border-l border-t">{{ cook }}</td>
+                <td class="px-4 py-2 text-center border-r border-t">{{ yield | default('unknown') }}</td>
+                <td class="px-4 py-2 text-center border-t">{{ prep | default('unknown') }}</td>
+                <td class="px-4 py-2 text-center border-l border-t">{{ cook | default('unknown') }}</td>
               </tr>
             </tbody>
           </table>
         </div>
         <div class="flex-auto">
           <h2 class="font-bold text-2xl mt-0">Ingredients:</h2>
-          <ul>
-          {% for ingredient in ingredients %}
+          <ul class="ml-4">
+          {% for ingredient in ingredients | trim | makeList %}
             <li>{{ ingredient }}</li>
           {% endfor %}
           </ul>
         </div>
       </section>
-      <section>
+      <section class="mt-2">
+        <h2 class="font-bold text-2xl mt-0">Instructions:</h2>
+
         {{ content | safe }}
       </section>
     </main>
   </article>
 
+  {% if image %}
   <figure class="mb-6 lg:col-span-1">
-    <div class="border border-solid border-gray-200 rounded">
-      <img src="{{ image | url }}" alt="{{ title }}" class="w-screen h-64 lg:h-auto object-cover object-center rounded-t">
-      {% if source %}
-      <figcaption class="p-4 text-center font-serif italic underline"><a href="{{ source }}" target="_blank" rel="nofollow noopener">Source</a></figcaption>
-      {% endif %}
-    </div>
+    <img src="{{ image | url }}" alt="{{ title }}" class="border border-solid border-gray-200 rounded w-screen h-64 lg:h-auto object-cover object-center rounded-t">
   </figure>
+  {% endif %}
 </div>
