@@ -27,10 +27,9 @@ collections:
       - { label: 'Yield', name: 'yield', widget: 'string', required: false }
       - { label: 'Prep', name: 'prep', widget: 'string', required: false }
       - { label: 'Cook', name: 'cook', widget: 'string', required: false }
+      - { label: 'Source', name: 'source', widget: 'string', required: false }
       - { label: 'Ingredients', name: 'ingredients', widget: 'text' }
       - { label: 'Instructions', name: 'body', widget: 'markdown' }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Source', name: 'source', widget: 'string', required: false }
 
   - label: 'Globals'
     name: 'globals'
