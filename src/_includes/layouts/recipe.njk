@@ -31,9 +31,9 @@ layout: layouts/base.njk
             </thead>
             <tbody>
               <tr>
-                <td class="px-4 py-2 text-center border-r border-t">{{ yield | default('unknown') }}</td>
-                <td class="px-4 py-2 text-center border-t">{{ prep | default('unknown') }}</td>
-                <td class="px-4 py-2 text-center border-l border-t">{{ cook | default('unknown') }}</td>
+                <td class="px-4 py-2 text-center border-r border-t">{{ yield | default('n/a') }}</td>
+                <td class="px-4 py-2 text-center border-t">{{ prep | default('n/a') }}</td>
+                <td class="px-4 py-2 text-center border-l border-t">{{ cook | default('n/a') }}</td>
               </tr>
             </tbody>
           </table>
