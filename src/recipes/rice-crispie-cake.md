@@ -1,6 +1,7 @@
 ---
 title: Rice Krispie Cake
 tags: dessert
+language: de
 ingredients: |-
   50 Gramm Butter oder Margarine
   ca. 250 Gramm Marshmallows

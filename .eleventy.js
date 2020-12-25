@@ -4,7 +4,7 @@ const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('makeList', function (value) {
     if (value) {
-      return value.split('\n');
+      return value.split('\n\n').map((el) => el.split('\n'));
     } else {
       return [];
     }

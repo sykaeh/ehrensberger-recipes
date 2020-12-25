@@ -3,6 +3,7 @@ title: Getränkter Zitronencake
 tags: dessert
 quote: Ein herrlich feuchter Kuchen!
 cook: 60 - 65 Minuten
+language: de
 ingredients: |-
   250g Margarine
   250g Zucker

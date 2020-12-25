@@ -2,6 +2,7 @@
 title: Ginger cookies
 tags: cookies
 cook: 10 - 12 Minuten pro Backblech
+language: de
 ingredients: |-
   170 Gramm Butter
   1 Cup Kristallzucker

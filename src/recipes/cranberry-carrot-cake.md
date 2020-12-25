@@ -4,6 +4,7 @@ tags: dessert
 quote: Always a hit – doesn't keep
 yield: 12 servings
 cook: 40 - 45 minutes
+language: en
 ingredients: |-
   1 ½ cups flour	
   1 cup brown sugar	

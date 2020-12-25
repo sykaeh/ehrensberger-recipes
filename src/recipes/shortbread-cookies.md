@@ -2,6 +2,7 @@
 title: Shortbread cookies
 tags: cookies
 cook: 15 Minuten pro Backblech
+language: de
 ingredients: |-
   450 Gramm Butter
   1 Cup Puderzucker

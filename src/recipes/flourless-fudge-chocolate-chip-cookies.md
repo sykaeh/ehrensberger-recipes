@@ -4,6 +4,7 @@ tags: cookies
 cook: 12 - 14 minutes per sheet
 yield: 30 cookies
 source: Rachael Crawley
+language: en
 ingredients: |-
   3 cups powdered sugar
   2/3 cup unsweetened Hershey’s dark chocolate cocoa powder

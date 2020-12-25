@@ -4,11 +4,15 @@ quote: Yvonne's absolute favourite cake!
 tags: dessert
 yield: 12 - 14 servings
 cook: 55 - 65 minutes
+language: en
 ingredients: |-
+  Filling:
   ½ cup white sugar
   2 teaspoons cinnamon
   200g chocolate chips
   1 cup walnuts (coarsely chopped)
+
+  Coffee cake:
   1 cup butter (225g)
   1 cup sugar
   3 large eggs
@@ -24,7 +28,7 @@ ingredients: |-
 1. In a small bowl, combine the sugar and cinnamon.
 2. Add the chocolate chips and walnuts and stir to combine.
 
-## Second - Main cake:
+## Second - Coffee cake:
 
 1. In a large bowl, beat the butter until creamy.
 2. Gradually add the sugar and beat until light and fluffy.

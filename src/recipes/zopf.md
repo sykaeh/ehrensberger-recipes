@@ -4,6 +4,7 @@ tags: bread
 image: /assets/images/zopf.jpg
 yield: 2 Zöpfe
 cook: 40 - 45 Minuten
+language: de
 ingredients: |-
   42g frische Backhefe
   1 Prise Zucker

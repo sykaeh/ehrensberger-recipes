@@ -2,6 +2,7 @@
 title: Brownies
 tags: dessert
 cook: 30 - 35 minutes
+language: de
 ingredients: |-
   90 g Fett oder Margarine 
   6 EL Kakao

@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: main
-publish_mode: editorial_workflow
 media_folder: 'src/assets/images'
 public_folder: '/assets/images'
 site_url: https://recipes.ehrensberger.org
@@ -21,8 +20,10 @@ collections:
           label: 'Category',
           name: 'tags',
           widget: 'select',
-          options: ['salad', 'soup', 'starter', 'main dish', 'bread', 'dessert', 'cookies'],
+          options:
+            ['breakfast', 'salad', 'soup', 'starter', 'main dish', 'bread', 'dessert', 'cookies'],
         }
+      - { label: 'Language', name: 'language', widget: 'select', options: ['en', 'de', 'fr', 'it'] }
       - { label: 'Image', name: 'image', widget: 'image', required: false }
       - { label: 'Yield', name: 'yield', widget: 'string', required: false }
       - { label: 'Prep', name: 'prep', widget: 'string', required: false }

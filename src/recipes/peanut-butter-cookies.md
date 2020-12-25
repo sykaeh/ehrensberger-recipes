@@ -3,6 +3,7 @@ title: Peanut butter cookies
 tags: cookies
 image: /assets/images/peanut-butter-cookies.jpg
 cook: 10 - 12 Minuten pro Backblech
+language: de
 ingredients: |-
   ½ Cup Fett
   ½ Cup Erdnussbutter

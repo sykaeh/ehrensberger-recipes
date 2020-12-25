@@ -2,6 +2,7 @@
 title: Almond crescents
 tags: cookies
 cook: 12 - 15 Minuten pro Backblech
+language: de
 ingredients: |-
   225g Butter
   75g (½ cup) Puderzucker

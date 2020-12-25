@@ -3,6 +3,7 @@ title: Trüffchenschnittchen
 tags: dessert
 image: /assets/images/trüffchenschnittchen.jpg
 cook: 40 Minuten
+language: de
 ingredients: |-
   200g dunkle Schokolade
   200g Butter

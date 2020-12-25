@@ -40,9 +40,12 @@ layout: layouts/base.njk
         </div>
         <div class="flex-auto">
           <h2 class="font-bold text-2xl mt-0">Ingredients:</h2>
-          <ul class="ml-4">
-          {% for ingredient in ingredients | trim | makeList %}
-            <li>{{ ingredient }}</li>
+          {% for list in ingredients | trim | makeList %}
+          <ul class="mt-4 list-none">
+            {% for ingredient in list %}
+              <li>{{ ingredient }}</li>
+            {% endfor %}
+          </ul>
           {% endfor %}
           </ul>
         </div>

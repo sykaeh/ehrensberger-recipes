@@ -2,6 +2,7 @@
 title: Limonenmousse
 tags: dessert
 image: /assets/images/limonenmousse.jpg
+language: de
 ingredients: |-
   3 Limonen, abgeriebene Schale und Saft
   250g Mascarpone

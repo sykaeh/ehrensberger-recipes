@@ -1,6 +1,7 @@
 ---
 title: Mousse au chocolate
 tags: dessert
+language: de
 ingredients: |-
   200g dunkle Kochschokolade
   4 Eigelb

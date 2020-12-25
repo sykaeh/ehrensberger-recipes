@@ -2,6 +2,7 @@
 title: Mailänderli
 tags: cookies
 cook: 15 - 20 Minuten pro Backblech
+language: de
 ingredients: |-
   250g Butter
   250g Puderzucker

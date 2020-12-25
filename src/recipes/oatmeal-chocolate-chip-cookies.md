@@ -2,7 +2,8 @@
 title: Oatmeal Chocolate Chip Cookies
 tags: cookies
 yield: ~ 60 cookies
-cook: 10 - 15 Minuten
+cook: 10 - 15 minutes
+language: en
 ingredients: |-
   1 cup shortening or margarine 
   1 cup brown sugar

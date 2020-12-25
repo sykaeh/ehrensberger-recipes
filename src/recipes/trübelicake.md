@@ -2,6 +2,7 @@
 title: Trübelicake
 tags: dessert
 cook: 60 Minuten
+language: de
 ingredients: |-
   200g Margarine
   180g Zucker
