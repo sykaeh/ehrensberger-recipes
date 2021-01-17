@@ -1,5 +1,5 @@
 ---
-title: Ian's 10 veggie chili
+title: 10 veggie chili
 tags: main dish
 language: en
 yield: lots
