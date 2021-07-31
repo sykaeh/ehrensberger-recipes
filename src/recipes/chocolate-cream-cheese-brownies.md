@@ -7,13 +7,13 @@ cook: 40 - 45 Minuten
 ingredients: |-
   Braune Schicht:
   25 g Margarine
-  100 g Schokolade oder 6 T Kakao + 2 Esslöffel Margarine
+  100 g Schokolade (oder 50 g Kakao + 25 g Margarine)
   2 Eier
   1 Päckchen Vanillezucker
   150 g Zucker
-  65 g Mehl
+  75 g Mehl
   ½ Teelöffel Backpulver
-  ¼ Teelöffel Salz
+  1 Prise Salz
   (Fakultativ: 75 g zerkleinerte Walnüsse)
 
   Weisse Schicht:
