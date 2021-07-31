@@ -37,7 +37,7 @@ ingredients: |-
 
 ## Third - Combination:
 
-1. Scrape one third of the batter into a 10-by-4 inch round tube pan.
+1. Scrape one third of the batter into a 10-by-4 inch round tube pan (or 2 loaf pans, in which case reduce the cooking time by about 5-10 minutes).
 2. Using a small off-set spatula, spread the batter evenly.
 3. Cover the batter with one third of the filling.
 4. Scrape half of the remaining batter over the filling and spread evenly.
