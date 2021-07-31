@@ -2,9 +2,9 @@
 title: Chocolate Chunk Sour Cream Coffee Cake
 quote: Yvonne's absolute favourite cake!
 tags: dessert
+language: en
 yield: 12 - 14 servings
 cook: 55 - 65 minutes
-language: en
 ingredients: |-
   Filling:
   ½ cup white sugar
@@ -22,7 +22,6 @@ ingredients: |-
   ½ teaspoon baking soda
   1 cup sour cream
 ---
-
 ## First - Filling:
 
 1. In a small bowl, combine the sugar and cinnamon.
@@ -43,7 +42,7 @@ ingredients: |-
 3. Cover the batter with one third of the filling.
 4. Scrape half of the remaining batter over the filling and spread evenly.
 5. Cover the batter with half of the remaining filling.
-6. Bake the coffee cake 55 to 65 minutes, until a toothpick inserted into the cake comes out clean.
+6. Bake the coffee cake @ 175-180C for 55 to 65 minutes, until a toothpick inserted into the cake comes out clean.
 7. Cool the coffee cake in the pan on wire rack for 15 minutes, until the chocolate on the top starts to harden.
 8. Run a knife around the edge of the pan to loosen and invert onto a wire rack.
 9. Quickly re-invert onto a wire rack onto another wire rack and cool completely.
