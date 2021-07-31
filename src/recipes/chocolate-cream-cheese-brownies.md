@@ -11,7 +11,7 @@ ingredients: |-
   2 Eier
   1 Päckchen Vanillezucker
   150 g Zucker
-  75 g Mehl
+  70 g Mehl
   ½ Teelöffel Backpulver
   1 Prise Salz
   (Fakultativ: 75 g zerkleinerte Walnüsse)
