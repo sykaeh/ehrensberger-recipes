@@ -21,4 +21,5 @@ ingredients: |-
   chili powder
   splash of white vinegar
 ---
+
 Add the ingredients to a large stew pot (brown beef first, if using) and let simmer for at least an hour before serving.

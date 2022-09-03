@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 @layer base {
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply mt-3;
     @apply mb-1;
     @apply font-bold;
@@ -17,7 +22,8 @@
     @apply text-xl;
   }
 
-  ul, ol {
+  ul,
+  ol {
     @apply list-inside;
   }
 

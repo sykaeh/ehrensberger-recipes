@@ -14,4 +14,5 @@ ingredients: |-
   1 Tablespoon baking powder
   1 Tablespoon poppyseeds
 ---
+
 Beat eggs and sugar together, then add all of the other ingredients and mix until the batter is smooth. Pour into one long (e.g. 30 cm) or two small (e.g. 20 cm) parchment-lined loaf pans.

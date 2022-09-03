@@ -21,6 +21,7 @@ ingredients: |-
   75 g Zucker
   1 Ei
 ---
-Margarine in einer Pfanne schmelzen lassen. Dann die Schokolade (resp. Kakao) dazu fügen und warten bis alles geschmolzen ist. Schnell mit 2 Eiern mischen. Dann alle Zutaten nacheinander hinzufügen. 
+
+Margarine in einer Pfanne schmelzen lassen. Dann die Schokolade (resp. Kakao) dazu fügen und warten bis alles geschmolzen ist. Schnell mit 2 Eiern mischen. Dann alle Zutaten nacheinander hinzufügen.
 
 In einer anderen Schale den Käse, Zucker und 1 Ei zusammen mischen. Dann in einem eingefetteten Backform (ca. 20 cm x 20 cm) eine Schicht braun, eine Schicht weiss und dann noch eine braune Schicht. Dann im Backofen bei 170° für 40-45 Minuten backen lassen.
