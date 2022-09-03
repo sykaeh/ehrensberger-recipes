@@ -24,7 +24,7 @@
     "url": "git@github.com:sykaeh/ehrensberger-recipes.git"
   },
   "devDependencies": {
-    "@11ty/eleventy": "~0.11.1",
+    "@11ty/eleventy": "^1.0.2",
     "autoprefixer": "~9.8.6",
     "copy-webpack-plugin": "~6.4.1",
     "cross-env": "~7.0.3",
