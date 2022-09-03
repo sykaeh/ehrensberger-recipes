@@ -2,11 +2,12 @@
 
 Ehrensberger Recipe Book is a simple digital recipe book for the recipes of the Ehrensberger family. Built on top of [Eleventy Recipe Book](https://github.com/footedesign/Eleventy-Recipe-Book), [Eleventy Starter Boilerplate](https://github.com/ixartz/Eleventy-Starter-Boilerplate) utilizing [Eleventy](https://www.11ty.dev).
 
-The recipe book is available [here](https://footedesign.github.io/Eleventy-Recipe-Book).
+The recipe book is available [here](https://recipes.ehrensberger.org).
 
 ## Getting Started
 
-Before you get started, make sure you have [Node.js](https://nodejs.org) installed.
+Before you get started, make sure you have [Node.js](https://nodejs.org) installed. We recommend using
+[nvm](https://github.com/nvm-sh/nvm) and making sure that you use the version specified in [.nvmrc](.nvmrc).
 
 Run the following command in your local environment:
 
