@@ -48,6 +48,6 @@ Clone this repository to your own GitHub account and deploy to Netlify:
 
 ## License
 
-Licensed under the MIT License, Copyright © 2020
+Licensed under the MIT License, Copyright © 2020 - present
 
 See [LICENSE](LICENSE) for more information.
