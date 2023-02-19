@@ -21,10 +21,6 @@ module.exports = function (eleventyConfig) {
     },
   });
 
-  eleventyConfig.setBrowserSyncConfig({
-    files: './_site/assets/styles/main.css',
-  });
-
   eleventyConfig.addTransform('htmlmin', (content, outputPath) => {
     if (outputPath.endsWith('.html')) {
       const minified = htmlmin.minify(content, {
