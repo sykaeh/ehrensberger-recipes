@@ -25,11 +25,9 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
-    "autoprefixer": "~10.4.13",
     "copy-webpack-plugin": "^11.0.0",
     "cross-env": "~7.0.3",
     "css-loader": "~6.7.2",
-    "cssnano": "~5.1.14",
     "eleventy-plugin-lazyimages": "^2.1.2",
     "eslint": "~8.32.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -42,11 +40,9 @@
     "image-webpack-loader": "^8.1.0",
     "mini-css-extract-plugin": "^2.6.1",
     "npm-run-all": "^4.1.5",
-    "postcss-loader": "^7.0.1",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
     "serve": "^14.0.1",
-    "tailwindcss": "~3.2.4",
     "webpack": "~5.75.0",
     "webpack-cli": "^4.10.0",
     "webpack-remove-empty-scripts": "~1.0.1"

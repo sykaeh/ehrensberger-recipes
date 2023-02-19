@@ -31,7 +31,7 @@ You can see the results locally in production mode with:
 npm run serve
 ```
 
-The generated HTML and CSS files are minified. Unused CSS will also be removed from [Tailwind CSS](https://tailwindcss.com).
+The generated HTML and CSS files are minified.
 
 You can create an optimized production build with:
 
