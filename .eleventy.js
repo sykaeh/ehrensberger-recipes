@@ -69,6 +69,8 @@ const imageShortcode = async (
 };
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setTemplateFormats(['njk', 'md', 'yml']);
+
   eleventyConfig.addFilter('makeList', function (value) {
     if (value) {
       return value.split('\n\n').map((el) => el.split('\n'));
@@ -93,7 +95,11 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  eleventyConfig.addPassthroughCopy({ 'public/*': '/' });
+  eleventyConfig.addPassthroughCopy({ 'public/styles/*': '/styles/' });
+
   return {
     dir: { input: 'src', output: '_site', data: '_data' },
+    passthroughFileCopy: true,
   };
 };

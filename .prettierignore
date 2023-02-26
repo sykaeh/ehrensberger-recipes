@@ -4,10 +4,6 @@
 # Output directories
 /_site
 
-# Generated file
-/src/_includes/layouts/webpack.ejs
-.lazyimages.json
-
 # Misc
 .DS_Store
 Thumbs.db
