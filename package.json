@@ -6,7 +6,7 @@
     "start": "npm run clean && cross-env ELEVENTY_ENV=development eleventy --serve",
     "build": "npm run clean && cross-env ELEVENTY_ENV=production eleventy",
     "serve:local": "serve _site",
-    "serve": "run-s build serve:local",
+    "serve": "npm run build && npm run serve:local",
     "clean": "rimraf _site",
     "format": "prettier '**/*.{js,json}' --write && eslint '**/*.js' --fix",
     "lint": "eslint --ext .js ."
@@ -19,27 +19,15 @@
   "devDependencies": {
     "@11ty/eleventy": "~2.0.0",
     "@11ty/eleventy-img": "~3.0.0",
-    "copy-webpack-plugin": "^11.0.0",
     "cross-env": "~7.0.3",
-    "css-loader": "~6.7.2",
-    "eleventy-plugin-lazyimages": "^2.1.2",
     "eslint": "~8.34.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "~8.6.0",
     "eslint-plugin-import": "~2.27.5",
-    "file-loader": "~6.2.0",
-    "glob": "^8.0.3",
-    "html-minifier": "^4.0.0",
-    "html-webpack-plugin": "^5.5.0",
-    "image-webpack-loader": "^8.1.0",
-    "mini-css-extract-plugin": "^2.6.1",
-    "npm-run-all": "^4.1.5",
+    "html-minifier": "~4.0.0",
     "outdent": "~0.8.0",
     "prettier": "~2.8.4",
     "rimraf": "~4.1.2",
-    "serve": "~14.2.0",
-    "webpack": "~5.75.0",
-    "webpack-cli": "^4.10.0",
-    "webpack-remove-empty-scripts": "~1.0.1"
+    "serve": "~14.2.0"
   }
 }
