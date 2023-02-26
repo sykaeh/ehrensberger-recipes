@@ -2,7 +2,7 @@
   "site_name": "Recipes 🍽",
   "title": "Recipes 🍽",
   "description": "A curated list of recipes",
-  "url": "https://example.com",
+  "url": "https://recipes.ehrensberger.org",
   "locale": "en",
   "author": "Anonymous",
   "netlify_cms": true
