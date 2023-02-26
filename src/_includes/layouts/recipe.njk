@@ -60,7 +60,7 @@ layout: layouts/base.njk
 
   {% if image %}
   <figure class="mb-6 lg:col-span-1">
-    <img src="{{ image | url }}" alt="{{ title }}" class="border border-solid border-gray-200 rounded w-screen h-64 lg:h-auto object-cover object-center rounded-t">
+    {% responsiveImage './src' + image, title, "border border-solid border-gray-200 rounded w-screen h-64 lg:h-auto object-cover object-center rounded-t" %}
   </figure>
   {% endif %}
 </div>
