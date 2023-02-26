@@ -1,3 +1,4 @@
+const path = require('path');
 const htmlmin = require('html-minifier');
 const Image = require('@11ty/eleventy-img');
 const outdent = require('outdent');
@@ -27,6 +28,11 @@ const imageShortcode = async (
     formats: [...formats, null],
     outputDir: '_site/assets/images',
     urlPath: '/assets/images',
+    filenameFormat: function (id, src, width, format, options) {
+      const extension = path.extname(src);
+      const name = path.basename(src, extension);
+      return `${name}-${width}w.${format}`;
+    },
   });
 
   const sourceHtmlString = Object.values(imageMetadata)
