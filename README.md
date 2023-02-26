@@ -1,6 +1,6 @@
 # Ehrensberger Recipe Book
 
-Ehrensberger Recipe Book is a simple digital recipe book for the recipes of the Ehrensberger family. Built on top of [Eleventy Recipe Book](https://github.com/footedesign/Eleventy-Recipe-Book), [Eleventy Starter Boilerplate](https://github.com/ixartz/Eleventy-Starter-Boilerplate) utilizing [Eleventy](https://www.11ty.dev).
+Ehrensberger Recipe Book is a simple digital recipe book for the recipes of the Ehrensberger family. Inspired by [Eleventy Recipe Book](https://github.com/footedesign/Eleventy-Recipe-Book), [Eleventy Starter Boilerplate](https://github.com/ixartz/Eleventy-Starter-Boilerplate) utilizing [Eleventy](https://www.11ty.dev).
 
 The recipe book is available [here](https://recipes.ehrensberger.org).
 
@@ -18,7 +18,7 @@ npm install
 Then, you can run locally in development mode with live reload:
 
 ```
-npm run dev
+npm run start
 ```
 
 Open http://localhost:8080 with your favorite browser to see your digital recipe book.
