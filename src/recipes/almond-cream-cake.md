@@ -1,7 +1,7 @@
 ---
 title: Almond cream cake with topping
 tags: dessert
-image: /assets/images/almon-cream-cake.jpg
+image: /assets/images/almond-cream-cake.jpg
 yield: 6 to 8 servings
 cook: 45 mins
 language: en
