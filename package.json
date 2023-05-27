@@ -17,8 +17,8 @@
     "url": "git@github.com:sykaeh/ehrensberger-recipes.git"
   },
   "devDependencies": {
-    "@11ty/eleventy": "~2.0.0",
-    "@11ty/eleventy-img": "~3.0.0",
+    "@11ty/eleventy": "~2.0.1",
+    "@11ty/eleventy-img": "~3.1.0",
     "cross-env": "~7.0.3",
     "eslint": "~8.41.0",
     "eslint-config-airbnb-base": "^15.0.0",
