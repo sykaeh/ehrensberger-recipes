@@ -21,7 +21,7 @@ const imageShortcode = async (
   className = undefined,
   widths = [400, 800, 1280],
   formats = ['webp', 'avif', 'jpeg'],
-  sizes = '100vw'
+  sizes = '100vw',
 ) => {
   const imageMetadata = await Image(src, {
     widths: [...widths, null],
