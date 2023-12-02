@@ -1,9 +1,9 @@
 ---
-title: Oatmeal Chocolate Chip Cookies
+title: Oatmeal Chocolate Chip Cookies (de)
 tags: cookies
+language: de
 yield: ~ 60 cookies
 cook: 10 - 12 Minuten
-language: de
 ingredients: |-
   200 g Fett oder Margarine
   200 g Rohzucker
