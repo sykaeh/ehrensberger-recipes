@@ -3,7 +3,7 @@ title: Nanaimo bars
 tags: dessert
 language: en
 image: /assets/images/img_3325.jpg
-yield: It goes fast - keep in the fridge!
+yield: ""
 ingredients: |-
   Bottom Layer:
       1/2 cup (110g) unsalted butter, diced into pieces
@@ -37,4 +37,4 @@ Press mixture into prepared baking dish. Chill while preparing the filling, bott
 
 **For the third layer:** Melt semi-sweet chocolate along with butter in a heat proof bowl, set over a pot of simmering water until smooth (or in the microwave in a microwave safe bowl in 20 second intervals stirring between each, until melted and smooth). Spread mixture into an even layer over filling layer (spread quickly before chocolate begins to set). Chill until chocolate has set.
 
-ENJOY!
+ENJOY! It goes fast - keep in the fridge!
