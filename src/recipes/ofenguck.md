@@ -21,7 +21,7 @@ ingredients: >-
   100 g Schinkenwürfeli und 100 g rezenter Tilsiter o. Ä., in Würfeli darunter mischen.
 
 
-  In eine vorbereitete Form füllen, mit einem Esslöffel 8 Vertiefungen in die Masse drücken
+  In eine ofenfeste, gefettete Form füllen, mit einem Esslöffel 8 Vertiefungen in die Masse drücken
 
   4 frische Eier einzeln aufschlagen, in je 4 Vertiefungen geben
 
