@@ -2,6 +2,7 @@
 title: Cheesecake
 tags: dessert
 language: en
+image: /assets/images/cheesecake.jpg
 ingredients: |-
   Crust:
   1 ¼ cups graham cracker crumbs (or similar crumbs)
