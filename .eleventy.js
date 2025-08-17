@@ -1,5 +1,5 @@
 const path = require('path');
-const htmlmin = require('html-minifier');
+const htmlmin = require('html-minifier-next');
 const Image = require('@11ty/eleventy-img');
 const outdent = require('outdent');
 

@@ -24,7 +24,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "~9.0.0",
     "eslint-plugin-import": "~2.29.0",
-    "html-minifier": "~4.0.0",
+    "html-minifier-next": "~1.2.1",
     "outdent": "~0.8.0",
     "prettier": "~3.1.0",
     "rimraf": "~5.0.5",
