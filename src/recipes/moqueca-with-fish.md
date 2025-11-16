@@ -2,7 +2,6 @@
 title: Moqueca with fish
 tags: main dish
 language: en
-image: https://www.simplyrecipes.com/thmb/YHxwE6vFCuUZlKhxsV3ardh5sqs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2010__03__moqueca-horiz-a-1600-aa5e1e58c086418c9ed7a57f602d8e99.jpg
 prep: 10 min
 cook: 35 min
 source: https://www.simplyrecipes.com/recipes/moqueca___brazilian_fish_stew/
@@ -37,6 +36,7 @@ ingredients: >
 
   1 14-ounces coconut milk
 ---
+
 Coat fish with garlic and lime juice. \
 Place fish pieces in a bowl, add the minced garlic and lime juice so that the pieces are well coated. Sprinkle generously all over with salt and pepper. Keep chilled while preparing the rest of the soup.
 
