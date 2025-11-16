@@ -19,7 +19,7 @@
   "devDependencies": {
     "@11ty/eleventy": "~2.0.1",
     "@11ty/eleventy-img": "~3.1.8",
-    "cross-env": "~10.0.0",
+    "cross-env": "~10.1.0",
     "eslint": "~8.54.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "~9.0.0",
@@ -27,7 +27,7 @@
     "html-minifier-next": "~1.2.1",
     "outdent": "~0.8.0",
     "prettier": "~3.6.2",
-    "rimraf": "~6.0.1",
+    "rimraf": "~6.1.0",
     "serve": "~14.2.1"
   }
 }
