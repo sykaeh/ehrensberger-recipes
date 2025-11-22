@@ -2,7 +2,7 @@
 title: 4 Ingredient Healthy Chocolate Cake
 tags: dessert
 language: en
-image: https://kirbiecravings.com/wp-content/uploads/2022/05/healthy-chocolate-cake-4-522x696.jpg
+image: ""
 yield: 8-10 pieces (quite dense)
 source: https://kirbiecravings.com/healthy-chocolate-cake/
 ingredients: |-
