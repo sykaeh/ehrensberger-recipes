@@ -16,13 +16,13 @@
     "url": "git@github.com:sykaeh/ehrensberger-recipes.git"
   },
   "devDependencies": {
-    "@11ty/eleventy": "~3.1.2",
+    "@11ty/eleventy": "~3.1.5",
     "@11ty/eleventy-img": "~6.0.4",
     "cross-env": "~10.1.0",
     "html-minifier-next": "~4.1.1",
     "outdent": "~0.8.0",
     "prettier": "~3.6.2",
-    "rimraf": "~6.1.0",
+    "rimraf": "~6.1.3",
     "serve": "~14.2.1"
   }
 }
