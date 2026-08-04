@@ -1,7 +1,7 @@
-const path = require('path');
-const htmlmin = require('html-minifier-next');
-const Image = require('@11ty/eleventy-img');
-const outdent = require('outdent');
+import path from 'node:path';
+import htmlmin from 'html-minifier-next';
+import Image from '@11ty/eleventy-img';
+import outdent from 'outdent';
 
 /** Maps a config of attribute-value pairs to an HTML string
  * representing those same attribute-value pairs.
@@ -74,7 +74,7 @@ const imageShortcode = async (
   return outdent`${picture}`;
 };
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.setTemplateFormats(['njk', 'md', 'yml']);
 
   eleventyConfig.addFilter('makeList', function (value) {
@@ -108,4 +108,4 @@ module.exports = function (eleventyConfig) {
     dir: { input: 'src', output: '_site', data: '_data' },
     passthroughFileCopy: true,
   };
-};
+}
