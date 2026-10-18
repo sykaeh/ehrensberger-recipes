@@ -15,15 +15,15 @@
     />
   </head>
   <body>
-    <nav class="bg-blue-800 p-3 mb-3">
-      <div class="container mx-auto sm:px-3 font-bold text-3xl text-white">
-        <a href="{{ '/' | url }}" class="hover:underline">{{ site.title }}</a>
+    <nav class="site-nav">
+      <div class="container">
+        <a href="{{ '/' | url }}" class="site-link">{{ site.title }}</a>
       </div>
     </nav>
 
-    <div class="container mx-auto mb-4 p-3">
+    <main class="container">
       {{ content | safe }}
-    </div>
+    </main>
 
     {# Only include Netlify JS if netlify_cms: true and it's the site index #}
     {% if site.netlify_cms and page.url === '/' %}

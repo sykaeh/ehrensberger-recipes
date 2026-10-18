@@ -2,15 +2,15 @@
 layout: layouts/base.njk
 ---
 
-<div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-6">
-  <article class="p-5 order-last lg:order-first lg:col-span-2 border border-solid border-gray-200 rounded">
-    <header class="mb-4 pb-4 rounded-t border-b border-solid border-gray-400">
-      <div class="pr-12 pb-2">
-        <h1 class="mt-0 mb-2 -ml-5 p-2 pl-5 font-bold text-3xl bg-gray-200 opacity-75 rounded-r-sm">{{ title }}</h1>
+<div class="recipe-container">
+  <article class="recipe">
+    <header>
+      <div class="title-container">
+        <h1 class="title">{{ title }}</h1>
       </div>
       <p>{{ quote }}</p>
       {% for tag in tags %}
-        <span class="bg-gray-200 opacity-75 -ml-5 py-1 pr-3 pl-5 text-sm font-semibold rounded-r-sm">
+        <span class="category">
           {{ tag }}
         </span>
       {% endfor %}
@@ -18,30 +18,29 @@ layout: layouts/base.njk
         <p>Source: {{ source }}</p>
       {% endif %}
     </header>
-    <main>
-      <section class="pb-3 flex flex-col lg:flex-row-reverse">
-        <div class="flex-auto lg:ml-4">
-          <table class="table-auto border-collapse w-full">
+      <section class="infos">
+        <div class="table-container">
+          <table>
             <thead>
               <tr>
-                <th class="px-4 py-2 bg-gray-200 rounded-l-sm border-r border-b">Servings</th>
-                <th class="px-4 py-2 bg-gray-200 border-b">Prep Time</th>
-                <th class="px-4 py-2 bg-gray-200 rounded-r-sm border-l border-b">Cooking Time</th>
+                <th class="rounded-l-sm border-r">Servings</th>
+                <th >Prep Time</th>
+                <th class="rounded-r-sm border-l">Cooking Time</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="px-4 py-2 text-center border-r border-t">{{ yield | default('n/a') }}</td>
-                <td class="px-4 py-2 text-center border-t">{{ prep | default('n/a') }}</td>
-                <td class="px-4 py-2 text-center border-l border-t">{{ cook | default('n/a') }}</td>
+                <td class="border-r">{{ yield | default('n/a') }}</td>
+                <td>{{ prep | default('n/a') }}</td>
+                <td class="border-l">{{ cook | default('n/a') }}</td>
               </tr>
             </tbody>
           </table>
         </div>
-        <div class="flex-auto">
-          <h2 class="font-bold text-2xl mt-0">Ingredients:</h2>
+        <div class="ingredients">
+          <h2>Ingredients</h2>
           {% for list in ingredients | trim | makeList %}
-          <ul class="mt-4 list-none">
+          <ul>
             {% for ingredient in list %}
               <li>{{ ingredient }}</li>
             {% endfor %}
@@ -50,17 +49,14 @@ layout: layouts/base.njk
           </ul>
         </div>
       </section>
-      <section class="mt-2">
-        <h2 class="font-bold text-2xl mt-0">Instructions:</h2>
+      <section class="instructions">
+        <h2>Instructions</h2>
 
         {{ content | safe }}
       </section>
-    </main>
   </article>
 
   {% if image %}
-  <figure class="mb-6 lg:col-span-1">
-    {% responsiveImage './src' + image, title, "border border-solid border-gray-200 rounded w-screen h-64 lg:h-auto object-cover object-center rounded-t" %}
-  </figure>
+    {% responsiveImage './src' + image, title, "recipe-picture" %}
   {% endif %}
 </div>

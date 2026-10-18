@@ -9,7 +9,7 @@ title: Overview
   <h2>{{ tag | capitalize }}</h2>
   <ul>
     {% for recipe in collections[tag] | sort(attribute='url') %}
-      <li><a class="hover:underline" href="{{ recipe.url | url }}">{{ recipe.data.title }}</a> ({{ recipe.data.language }})</li>
+      <li><a href="{{ recipe.url | url }}">{{ recipe.data.title }}</a> ({{ recipe.data.language }})</li>
     {% endfor %}
   </ul>
 </section>
