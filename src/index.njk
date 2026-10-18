@@ -4,6 +4,7 @@ title: Overview
 ---
 
 {% for tag in ['breakfast', 'salad', 'soup', 'starter', 'main dish', 'bread', 'dessert', 'cookies'] %}
+{% if collections[tag] %}
 <section>
   <h2>{{ tag | capitalize }}</h2>
   <ul>
@@ -12,4 +13,5 @@ title: Overview
     {% endfor %}
   </ul>
 </section>
+{% endif %}
 {% endfor %}
