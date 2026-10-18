@@ -163,8 +163,9 @@ Use the modern Firefox focus style for all focusable elements.
 */
 
 [type='search'] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  border: 1px solid;
+  padding: 4px 8px;
+  border-radius: 4px;
 }
 
 /*
@@ -487,6 +488,10 @@ main {
 
 .recipe-picture {
   margin-bottom: 1.5rem;
+}
+
+#no-results {
+  margin: 16px 0;
 }
 
 @media (min-width: 1024px) {

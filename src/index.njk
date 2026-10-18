@@ -3,15 +3,48 @@ permalink: index.html
 title: Overview
 ---
 
+<input type="search" id="recipe-search" placeholder="Search recipes…" autocomplete="off">
+ 
 {% for tag in ['breakfast', 'salad', 'soup', 'starter', 'main dish', 'bread', 'dessert', 'cookies'] %}
 {% if collections[tag] %}
-<section>
+<section class="recipe-section">
   <h2>{{ tag | capitalize }}</h2>
   <ul>
     {% for recipe in collections[tag] | sort(attribute='url') %}
-      <li><a href="{{ recipe.url | url }}">{{ recipe.data.title }}</a> ({{ recipe.data.language }})</li>
+      <li data-title="{{ recipe.data.title | lower | escape }}"><a href="{{ recipe.url | url }}">{{ recipe.data.title | escape }}</a> ({{ recipe.data.language }})</li>
     {% endfor %}
   </ul>
 </section>
 {% endif %}
 {% endfor %}
+ 
+<p id="no-results" hidden>No recipes found.</p>
+ 
+<script>
+  const input = document.getElementById('recipe-search');
+  const sections = document.querySelectorAll('.recipe-section');
+  const noResults = document.getElementById('no-results');
+ 
+  input.addEventListener('input', () => {
+    const term = input.value.trim().toLowerCase();
+    let anyVisible = false;
+ 
+    sections.forEach(section => {
+      let sectionVisible = false;
+      section.querySelectorAll('li[data-title]').forEach(li => {
+        const match = li.dataset.title.includes(term);
+        li.hidden = !match;
+        if (match) {
+          sectionVisible = true;
+        }
+      });
+      section.hidden = !sectionVisible;
+      if (sectionVisible) {
+        anyVisible = true;
+      }
+    });
+ 
+    noResults.hidden = anyVisible;
+    noResults.innerHTML = term ? 'No matching recipes found.' : 'No recipes found.'
+  });
+</script>
